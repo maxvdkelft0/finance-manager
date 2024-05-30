@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (username === 'admin' && password === 'admin') {
                 showToast('Succesvol ingelogd.', 'success');
                 setTimeout(() => {
-                    window.location.href = '/index.html'; // Redirect after showing toast
+                    window.location.href = 'index.html'; // Redirect after showing toast
                 }, 1000); // Delay to show the toast before redirecting
             } else {
                 showToast('Ongeldige gebruikersnaam of wachtwoord.', 'error');
