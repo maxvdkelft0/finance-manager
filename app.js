@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
             showToast('Uitgelogd.', 'success');
             // Redirect to login page after showing the toast
             setTimeout(() => {
-                window.location.href = '/login.html';
+                window.location.href = 'login.html';
             }, 2000); // Delay before redirecting
         });
     }
