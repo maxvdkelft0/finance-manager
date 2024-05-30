@@ -218,7 +218,6 @@ document.addEventListener('DOMContentLoaded', function () {
         // Nieuwe uitgave weergeven met animatie
         addExpenseToList(newExpense);
 
-        console.log('tsst')
         // Show success toast
         showToast('Uitgave succesvol toegevoegd.', 'success');
 
