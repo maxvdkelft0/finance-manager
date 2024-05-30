@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Check login credentials
             if (username === 'admin' && password === 'admin') {
-                showToast('Succesvol ingelogd.', 'success');
+                showToast('U bent succesvol ingelogd!', 'success');
                 setTimeout(() => {
                     window.location.href = 'index.html'; // Redirect after showing toast
                 }, 1000); // Delay to show the toast before redirecting
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (logoutButton) {
         logoutButton.addEventListener('click', function () {
             // Show logout toast
-            showToast('Uitgelogd.', 'success');
+            showToast('U bent succesvol uitgelogd!', 'success');
             // Redirect to login page after showing the toast
             setTimeout(() => {
                 window.location.href = 'login.html';
@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', function () {
         addExpenseToList(newExpense);
 
         // Show success toast
-        showToast('Uitgave succesvol toegevoegd.', 'success');
+        showToast('Uitgave van €' + amount + ' voor ' + category + ' toegevoegd.', 'success');
 
         // Formulier resetten
         expenseForm.reset();
