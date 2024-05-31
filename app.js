@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const expenseTime = document.createElement('span');
         const formattedDate = new Date(expense.timestamp).toLocaleString('nl-NL');
-        expenseTime.innerHTML = `<i class="mr-2 fas fa-clock"></i> ${formattedDate}`;
+        expenseTime.innerHTML = `<i class="mr-1 fas fa-clock"></i> ${formattedDate}`;
         expenseTime.className = 'expense-time';
 
         const editButton = document.createElement('button');
