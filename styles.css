@@ -18,11 +18,21 @@
 
 .category-name {
     font-size: 1.1rem;
+    flex-grow: 1;
 }
 
 .expense-time {
     font-size: 0.9rem;
+    margin-left: 15px;
     color: #999;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.edit-button,
+.delete-button {
+    margin-left: 10px;
 }
 
 /* Slide up animation for toasts */
@@ -79,4 +89,10 @@
     color: rgb(255, 255, 255);
     backdrop-filter: blur(10px);
     font-weight: 500;
+}
+
+/* Modal styles */
+#edit-modal {
+    display: none;
+    /* Hide the modal by default */
 }
