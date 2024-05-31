@@ -3,5 +3,6 @@ Login Gegevens:
 gebruikersnaam: admin
 
 wachtwoord: admin
-<img width="1470" alt="Scherm­afbeelding 2024-05-30 om 12 54 12" src="https://github.com/maxvdkelft0/finance-manager/assets/144001944/c9e43634-b5a0-404b-8b88-18c4752028b7">
-<img width="1470" alt="Scherm­afbeelding 2024-05-30 om 12 54 55" src="https://github.com/maxvdkelft0/finance-manager/assets/144001944/e3a2a8d4-e0d6-4b58-92f0-e80c0ef13a8b">
+<img width="1470" alt="Scherm­afbeelding 2024-05-31 om 12 22 12" src="https://github.com/maxvdkelft0/finance-manager/assets/144001944/0501e143-77a8-4287-bef7-adc9bde95cd1">
+<img width="1470" alt="Scherm­afbeelding 2024-05-31 om 12 22 18" src="https://github.com/maxvdkelft0/finance-manager/assets/144001944/5782c53c-1cbb-41de-95fa-5af2ea8755b9">
+<img width="1470" alt="Scherm­afbeelding 2024-05-31 om 12 21 04" src="https://github.com/maxvdkelft0/finance-manager/assets/144001944/ee4536ee-570b-4a59-be3f-dd668087bcd4">
